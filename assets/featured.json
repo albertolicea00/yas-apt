@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "name": "Essentials",
+      "packages": [
+        {
+          "id": "curl",
+          "name": "curl",
+          "description": "Transfer data with URLs",
+          "kind": "deb"
+        },
+        {
+          "id": "git",
+          "name": "git",
+          "description": "Version control",
+          "kind": "deb"
+        },
+        {
+          "id": "htop",
+          "name": "htop",
+          "description": "Interactive process viewer",
+          "kind": "deb"
+        }
+      ]
+    },
+    {
+      "name": "Dev",
+      "packages": [
+        {
+          "id": "build-essential",
+          "name": "build-essential",
+          "description": "C/C++ toolchain",
+          "kind": "deb"
+        },
+        {
+          "id": "python3",
+          "name": "python3",
+          "description": "Programming language",
+          "kind": "deb"
+        },
+        {
+          "id": "jq",
+          "name": "jq",
+          "description": "JSON processor",
+          "kind": "deb"
+        }
+      ]
+    }
+  ]
+}
