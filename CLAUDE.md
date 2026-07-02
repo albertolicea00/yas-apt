@@ -22,7 +22,7 @@ Debian / Ubuntu and derivatives. x64 + arm64.
 - Consider libapt-pkg bindings later; v1 wraps CLI per suite convention.
 
 ## Design (see DESIGN.md)
-- Dark theme. Base `#212826`, accent **Red `#D32F2F`**, highlight `#D32F2F1A`, text `#F8F8F2` / `#ACADAD`.
+- Dark theme. Base `#222629`, accent **Red `#D32F2F`**, highlight `#D32F2F1A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **APT**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
 ## Conventions
