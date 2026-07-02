@@ -2,9 +2,9 @@
 
 ## What
 Native GUI wrapper for **APT** (`apt`). Part of YAS suite.
-Status: **docs-only — no code yet**.
+Status: **scaffolded & unit-tested** — vendored core + adapter + QML shell compile, 3/3 QtTest suites pass (verified cross-compiling on macOS). Pending: build + QA on the real target platform.
 
-## Stack (planned)
+## Stack
 - C++20 + Qt 6.7+ (Qt Quick / QML), CMake ≥ 3.24, GCC/Clang
 - Native windowing via Qt QPA plugins: **wayland** with **xcb** (X11) fallback. Qt picks at runtime; test both.
 - CLI execution: `QProcess` wrapping `apt` / `apt-get` / `apt-cache`. Never bundle it.
@@ -22,7 +22,7 @@ Debian / Ubuntu and derivatives. x64 + arm64.
 - Consider libapt-pkg bindings later; v1 wraps CLI per suite convention.
 
 ## Design (see DESIGN.md)
-- Dark theme. Base `#1E1E2E`, accent **Red `#D32F2F`**, highlight `#D32F2F1A`, text `#F8F8F2` / `#A9B1D6`.
+- Dark theme. Base `#212826`, accent **Red `#D32F2F`**, highlight `#D32F2F1A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **APT**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
 ## Conventions
